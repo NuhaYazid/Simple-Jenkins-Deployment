@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home(Model model) {
         model.addAttribute("message", "Hello! Deployed via Jenkins + Tomcat!");
         return "home"; // → resolves to /WEB-INF/views/home.jsp
