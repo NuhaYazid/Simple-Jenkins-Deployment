@@ -29,7 +29,7 @@
 <div class="box">
     <h1>🚀 Spring Boot + Tomcat</h1>
     <p>${message}</p>
-    <small>Saya ubah yang ni sikit!</small>
+    <small>Saya ubah yang ni sikit je tau!</small>
 </div>
 </body>
 </html>
