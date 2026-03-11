@@ -27,8 +27,8 @@ pipeline {
                 bat '''
                     net stop Tomcat10 || echo "Already stopped, continuing..."
 
-                    if exist "C:\\Tomcat 10\\webapps\\springboot-demo" (
-                        rmdir /S /Q "C:\\Tomcat 10\\webapps\\springboot-demo"
+                    if exist "C:\\Tomcat 10\\webapps" (
+                        rmdir /S /Q "C:\\Tomcat 10\\webapps"
                     )
                     if exist "C:\\Tomcat 10\\webapps\\springboot-demo.war" (
                         del "C:\\Tomcat 10\\webapps\\springboot-demo.war"
